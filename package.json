@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:all": "cd .. && npm run build && cd demo && npm run build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sapphi-red/web-noise-suppressor": "file:..",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "@typescript/lib-dom": "npm:@types/web@^0.0.76",
+    "vite": "^3.2.1"
+  }
+}
